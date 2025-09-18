@@ -1,0 +1,25 @@
+# FastAPI + Pydantic v1.x compatibility
+fastapi==0.95.2
+pydantic==1.10.12
+uvicorn[standard]==0.22.0
+
+# Env + utils
+python-dotenv==1.0.0
+requests
+
+# Embeddings / models (adjust versions to match your GPU/CUDA/Python)
+sentence-transformers
+transformers
+torch
+
+# Vector DB and ingestion
+chromadb
+pypdf2
+python-docx
+python-multipart
+
+# Groq (if using the official package)
+groq
+
+# Optional: huggingface helper
+huggingface-hub

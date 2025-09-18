@@ -1,0 +1,11 @@
+:root{
+  --legal-color: #2563eb;
+  --medical-color: #059669;
+  --finance-color: #b45309;
+  --bg: #f8fafc;
+}
+body { background: var(--bg); font-family: Inter, system-ui, sans-serif; }
+.chat-bubble { padding: 10px 14px; border-radius: 12px; margin-bottom: 8px; display: inline-block; max-width: 80%; }
+.user { background: #e5e7eb; color: #111827; align-self: flex-end; }
+.bot { background: #111827; color: #f9fafb; }
+.drop-zone.dragover { border-color: var(--legal-color); box-shadow: 0 4px 14px rgba(37,99,235,0.12); }
